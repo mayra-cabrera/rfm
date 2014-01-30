@@ -90,7 +90,7 @@ module Rfm
 
       parse_fields(meta)
       parse_portals(meta) if @include_portals
-      
+    
       Rfm::Record.build_records(resultset.xpath('record'), self, @field_meta, @layout)
       
     end
