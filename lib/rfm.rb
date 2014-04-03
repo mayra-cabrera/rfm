@@ -8,9 +8,7 @@ require 'rfm/layout'
 require 'rfm/resultset'
 
 module Rfm
-  
   class CommunicationError  < StandardError; end
   class ParameterError      < StandardError; end
   class AuthenticationError < StandardError; end
-
 end
